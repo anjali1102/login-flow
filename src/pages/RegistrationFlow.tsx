@@ -6,7 +6,7 @@ import SuccessModal from '../components/steps/SuccessModal';
 import MobileOtp from '../components/steps/MobileOtp';
 import ResetPassword from '../components/steps/ResetPassword';
 import FullNameInput from '../components/steps/FullNameInput';
-import { STEPS } from '../utility/Steps';
+import STEPS from '../utility/Steps';
 
 const RegistrationFlow = () => {
   const [currentStep, setCurrentStep] = useState(STEPS.ACCOUNT_TYPE);
